@@ -11,7 +11,7 @@
 ## Initialize Module Variables
 
 ## Initialize Module Configuration
-#Requires -Modules Microsoft.Graph.Authentication
+#Requires -Modules Microsoft.Graph.Authentication,az.accounts
 
 # Import private and public scripts and expose the public ones
 $privateScripts = @(Get-ChildItem -Path "$PSScriptRoot\internal" -Recurse -Filter "*.ps1")
